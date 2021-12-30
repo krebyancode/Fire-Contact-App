@@ -19,7 +19,7 @@ import { successNote } from "./utils/toastify";
 
 function App() {
   const [contacts, setContacts] = useState([]);
-  const [editedContact, setEditedContact] = useState({});
+  const [editedContact, setEditedContact] = useState("");
   const [editedID, setEditedID] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
